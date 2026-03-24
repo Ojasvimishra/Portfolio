@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ojasvi Mishra | Portfolio</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">OM<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+            </ul>
+            <div class="menu-btn" id="menu-btn">
+                <i class="ri-menu-3-line"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Overlay for mobile menu -->
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content hidden">
+                <span class="greeting">Hello, I'm</span>
+                <h1 class="name">Ojasvi Mishra</h1>
+                <h2 class="role">Software Developer <span>& Problem Solver</span></h2>
+                <p class="summary">Dedicated Full-Stack Software Developer passionate about creating robust, scalable
+                    applications. Specializing in C++, MERN stack, and building innovative solutions that drive impact.
+                </p>
+                <div class="contact-info">
+                    <span class="contact-item"><i class="ri-map-pin-line"></i> Varanasi, UP 221208</span>
+                    <span class="contact-item"><i class="ri-phone-line"></i> 9044256927</span>
+                    <span class="contact-item"><i class="ri-mail-line"></i> <a
+                            href="mailto:ojasvimishra9792@gmail.com">ojasvimishra9792@gmail.com</a></span>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/ojasvi-mishra2004" target="_blank" class="social-btn"><i
+                            class="ri-linkedin-fill"></i></a>
+                    <a href="https://github.com/Ojasvimishra" target="_blank" class="social-btn"><i
+                            class="ri-github-fill"></i></a>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="GeneralCV .pdf" target="_blank" class="btn secondary-btn">Download CV</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image reveal-image">
+                <div class="profile-ring"></div>
+                <div class="profile-ring secondary"></div>
+                <div class="hero-image-frame">
+                    <img src="WhatsApp Image 2026-03-23 at 11.36.06 AM.jpeg" alt="Ojasvi Mishra"
+                        class="profile-img">
+                </div>
+            </div>
+
+            <div class="scroll-indicator hidden">
+                <a href="#about">
+                    <span class="mouse">
+                        <span class="wheel"></span>
+                    </span>
+                </a>
+            </div>
+
+            <!-- Absolute Floating Widget -->
+            <div class="code-snippet-box glass-card">
+                <div class="mac-header">
+                    <span class="mac-btn close"></span>
+                    <span class="mac-btn minimize"></span>
+                    <span class="mac-btn maximize"></span>
+                </div>
+                <pre><code><span class="code-kw">const</span> <span class="code-var">developer</span> = {
+    <span class="code-prop">name</span>: <span class="code-str">'Ojasvi Mishra'</span>,
+    <span class="code-prop">focus</span>: <span class="code-str">'Fullstack Mastery'</span>,
+    <span class="code-prop">skills</span>: [<span class="code-str">'React'</span>, <span class="code-str">'NodeJS'</span>, <span class="code-str">'C++'</span>],
+    <span class="code-prop">passionate</span>: <span class="code-bool">true</span>,
+    <span class="code-prop">motto</span>: <span class="code-str">"Build with Purpose"</span>
+};
+<span class="code-var">developer</span>.<span class="code-func">showcase</span>();</code></pre>
+            </div>
+
+            <!-- Background Elements -->
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="section-header hidden">
+                <h2>About Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-content hidden">
+                <div class="about-text">
+                    <p>My journey in software development is driven by a relentless curiosity and a desire to build
+                        seamless, intuitive digital solutions. With a solid academic foundation in Computer Science, my
+                        primary engineering stack centers around <strong>React.js, Node.js, Express, and
+                            MongoDB</strong>, alongside advanced proficiency in <strong>C++</strong> for
+                        high-performance algorithmic problem-solving.</p>
+                    <p>Beyond writing code, I focus on full-stack system architecture, database optimization, and
+                        creating meaningful user experiences. From deploying robust RESTful APIs to designing sleek
+                        frontend interfaces, I approach every project with detail-oriented precision.</p>
+                </div>
+                <div class="education-summary">
+                    <h3>Education Quick Glance</h3>
+                    <ul class="edu-timeline">
+                        <li>
+                            <div class="dot"></div>
+                            <div class="edu-details">
+                                <h4>B.Tech CSE (2023 – 2027)</h4>
+                                <span>Lovely Professional University, Punjab | CGPA: 7.0</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dot"></div>
+                            <div class="edu-details">
+                                <h4>Intermediate (2021 – 2022)</h4>
+                                <span>St. Atulanand Convent School, Varanasi | Core Sciences & Mathematics</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dot"></div>
+                            <div class="edu-details">
+                                <h4>Matriculation (2019 – 2020)</h4>
+                                <span>Asian Public School, Varanasi | 89%</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack Marquee Section -->
+        <section class="tech-stack pattern-grid" id="skills" style="overflow: hidden; padding-bottom: 50px;">
+            <div class="section-header reveal-up">
+                <h2>The Tech Stack</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="marquee-wrapper reveal-up">
+                <!-- Track 1 (Scrolling Left) -->
+                <div class="marquee-track track-left">
+                    <div class="tech-pill glass-card"><i class="ri-reactjs-line"></i>
+                        <div class="tech-text">
+                            <h4>React</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-nodejs-line"></i>
+                        <div class="tech-text">
+                            <h4>Node JS</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-code-box-line"></i>
+                        <div class="tech-text">
+                            <h4>C++</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-javascript-line"></i>
+                        <div class="tech-text">
+                            <h4>JavaScript</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-database-2-line"></i>
+                        <div class="tech-text">
+                            <h4>MongoDB</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-html5-fill"></i>
+                        <div class="tech-text">
+                            <h4>HTML5</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-css3-line"></i>
+                        <div class="tech-text">
+                            <h4>CSS3</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+
+                    <!-- Duplicates for seamless loop -->
+                    <div class="tech-pill glass-card"><i class="ri-reactjs-line"></i>
+                        <div class="tech-text">
+                            <h4>React</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-nodejs-line"></i>
+                        <div class="tech-text">
+                            <h4>Node JS</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-code-box-line"></i>
+                        <div class="tech-text">
+                            <h4>C++</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-javascript-line"></i>
+                        <div class="tech-text">
+                            <h4>JavaScript</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-database-2-line"></i>
+                        <div class="tech-text">
+                            <h4>MongoDB</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-html5-fill"></i>
+                        <div class="tech-text">
+                            <h4>HTML5</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-css3-line"></i>
+                        <div class="tech-text">
+                            <h4>CSS3</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Track 2 (Scrolling Right) -->
+                <div class="marquee-track track-right">
+                    <div class="tech-pill glass-card"><i class="ri-server-line"></i>
+                        <div class="tech-text">
+                            <h4>Express.js</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-github-fill"></i>
+                        <div class="tech-text">
+                            <h4>Git</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-database-line"></i>
+                        <div class="tech-text">
+                            <h4>MySQL</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-cloud-windy-line"></i>
+                        <div class="tech-text">
+                            <h4>Cloud Computing</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-layout-masonry-line"></i>
+                        <div class="tech-text">
+                            <h4>Data Structs</h4><span>COMPETENCY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-braces-line"></i>
+                        <div class="tech-text">
+                            <h4>OOPs</h4><span>COMPETENCY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-terminal-box-line"></i>
+                        <div class="tech-text">
+                            <h4>Python</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+
+                    <!-- Duplicates for seamless loop -->
+                    <div class="tech-pill glass-card"><i class="ri-server-line"></i>
+                        <div class="tech-text">
+                            <h4>Express.js</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-github-fill"></i>
+                        <div class="tech-text">
+                            <h4>Git</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-database-line"></i>
+                        <div class="tech-text">
+                            <h4>MySQL</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-cloud-windy-line"></i>
+                        <div class="tech-text">
+                            <h4>Cloud Computing</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-layout-masonry-line"></i>
+                        <div class="tech-text">
+                            <h4>Data Structs</h4><span>COMPETENCY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-braces-line"></i>
+                        <div class="tech-text">
+                            <h4>OOPs</h4><span>COMPETENCY</span>
+                        </div>
+                    </div>
+                    <div class="tech-pill glass-card"><i class="ri-terminal-box-line"></i>
+                        <div class="tech-text">
+                            <h4>Python</h4><span>TECHNOLOGY</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Coding Profiles Section -->
+        <section class="coding-profiles" id="coding-profiles" style="padding-top: 50px;">
+            <div class="section-header reveal-up">
+                <h2>Coding Profiles & Achievements</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="profiles-container reveal-up"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 900px; margin: 0 auto;">
+
+                <!-- LeetCode Card -->
+                <a href="https://leetcode.com/u/ojasvimishra9792/" target="_blank" class="profile-card glass-card"
+                    style="text-decoration: none; color: inherit; padding: 30px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+                            alt="LeetCode" style="width: 40px; height: 40px; filter: invert(1);">
+                        <h3 style="font-size: 1.5rem; margin: 0; color: var(--text-primary);">LeetCode</h3>
+                    </div>
+                    <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.95rem;">@ojasvimishra9792
+                    </p>
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; flex-grow: 1;">
+                        <span class="badge"
+                            style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.2); color: #ffffff;">Problem
+                            Solving</span>
+                        <span class="badge"
+                            style="background: rgba(255,255,255,0.02); color: var(--text-secondary);">Data
+                            Structures</span>
+                    </div>
+                    <div
+                        style="margin-top: auto; font-size: 0.9rem; color: #ffffff; display: flex; align-items: center; gap: 5px; font-weight: 500;">
+                        View Live Profile <i class="ri-arrow-right-up-line"></i>
+                    </div>
+                </a>
+
+                <!-- HackerRank Card -->
+                <a href="https://www.hackerrank.com/profile/ojasvimishra9792" target="_blank"
+                    class="profile-card glass-card"
+                    style="text-decoration: none; color: inherit; padding: 30px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png"
+                            alt="HackerRank"
+                            style="width: 40px; height: 40px; filter: grayscale(100%) brightness(200%);">
+                        <h3 style="font-size: 1.5rem; margin: 0; color: var(--text-primary);">HackerRank</h3>
+                    </div>
+                    <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.95rem;">@ojasvimishra9792
+                    </p>
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; flex-grow: 1;">
+                        <span class="badge"
+                            style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.2); color: #ffffff;">Algorithms</span>
+                        <span class="badge"
+                            style="background: rgba(255,255,255,0.02); color: var(--text-secondary);">C++
+                            Proficiency</span>
+                    </div>
+                    <div
+                        style="margin-top: auto; font-size: 0.9rem; color: #ffffff; display: flex; align-items: center; gap: 5px; font-weight: 500;">
+                        View Live Profile <i class="ri-arrow-right-up-line"></i>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects pattern-waves" id="projects">
+            <div class="section-header hidden">
+                <h2>Featured Projects</h2>
+                <div class="line"></div>
+            </div>
+            <div class="project-grid" id="github-projects-grid">
+                <!-- Projects will be dynamically inserted here via script.js -->
+            </div>
+        </section>
+
+        <!-- Experience & Training Section -->
+        <section class="experience pattern-dots" id="experience">
+            <div class="section-header hidden">
+                <h2>Training & Certifications</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="experience-container hidden">
+                <!-- Training -->
+                <div class="timeline">
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-icon">
+                            <i class="ri-user-star-line"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="date">Internship</span>
+                            <h3>Human Resources (HR) Intern</h3>
+                            <h4>The Eduniketan Private Limited (<a href="https://eduniketan.com" target="_blank"
+                                    style="color:var(--accent-primary);">educode.com</a>)</h4>
+                            <p>Assisted in end-to-end talent acquisition, managed employee onboarding structures, and
+                                supported core HR operations for a rapidly-growing educational platform that delivers
+                                24x7 robust exam preparation resources.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-icon">
+                            <i class="ri-code-box-line"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="date">July 2025 - August 2025</span>
+                            <h3>C++ with Object-Oriented Programming</h3>
+                            <h4>Cipher Schools (Trainee)</h4>
+                            <p>Completed a certified course focusing on OOP concepts: classes, inheritance,
+                                polymorphism, encapsulation, and abstraction. Developed practical skills in file
+                                handling, operator overloading, and dynamic memory management.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications Grid -->
+                <h3 class="cert-title hidden"
+                    style="margin-top: 50px; text-align: center; margin-bottom: 30px; font-size: 2rem;">Licenses &
+                    Certifications</h3>
+                <div class="certifications-grid hidden"
+                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+
+                    <div class="cert-card glass-card">
+                        <div class="cert-header">
+                            <i class="ri-cloud-windy-line cert-icon"></i>
+                            <a href="Cloud Computing.pdf" download class="cert-download"
+                                title="Download Cloud Computing Certificate"><i class="ri-download-2-line"></i>
+                                Download</a>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Cloud Computing</h4>
+                            <span>NPTEL • Issued Nov 2025</span>
+                            <p>Advanced certification in cloud paradigms, distributed systems, and modern virtualization
+                                technologies.</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-card">
+                        <div class="cert-header">
+                            <i class="ri-database-2-line cert-icon"></i>
+                            <a href="OracleCertificate.pdf" download class="cert-download"
+                                title="Download Oracle Certificate"><i class="ri-download-2-line"></i> Download</a>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Oracle Database Foundations</h4>
+                            <span>Oracle • Issued Jun 2025</span>
+                            <p>Demonstrated proficiency in relational database concepts and basic SQL implementation on
+                                Oracle DB.</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-card">
+                        <div class="cert-header">
+                            <i class="ri-medal-line cert-icon"></i>
+                            <a href="EDUREV_2023364112_12324518_23_2025_e27301ba.png" download class="cert-download"
+                                title="Download EduRev Certificate"><i class="ri-download-2-line"></i> Download</a>
+                        </div>
+                        <div class="cert-info">
+                            <h4>EduRev Excellence Award</h4>
+                            <span>EduRev • Issued 2025</span>
+                            <p>Recognized for outstanding academic excellence and platform achievements.</p>
+                        </div>
+                    </div>
+
+                    <!-- Screenshot 2023 -->
+                    <div class="cert-card glass-card">
+                        <div class="cert-header">
+                            <i class="ri-file-check-line cert-icon"></i>
+                            <a href="Screenshot 2023-10-06 220933.png" download class="cert-download"
+                                title="Download Record"><i class="ri-download-2-line"></i> Download</a>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Technical Assessment Level I</h4>
+                            <span>Issued Oct 2023</span>
+                            <p>Validation of foundational programming and problem-solving capabilities.</p>
+                        </div>
+                    </div>
+
+                    <!-- Screenshot Apr 2025 -->
+                    <div class="cert-card glass-card">
+                        <div class="cert-header">
+                            <i class="ri-file-check-line cert-icon"></i>
+                            <a href="Screenshot 2025-04-04 215828.png" download class="cert-download"
+                                title="Download Record"><i class="ri-download-2-line"></i> Download</a>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Core Programming Assessment</h4>
+                            <span>Issued Apr 2025</span>
+                            <p>Record of successfully clearing advanced algorithmic challenge phases.</p>
+                        </div>
+                    </div>
+
+                    <!-- Screenshots Sep 2025 -->
+                    <div class="cert-card glass-card">
+                        <div class="cert-header">
+                            <i class="ri-code-box-line cert-icon"></i>
+                            <a href="Screenshot 2025-09-21 124746.png" download class="cert-download"
+                                title="Download Record"><i class="ri-download-2-line"></i> Download</a>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Specialization Module 1</h4>
+                            <span>Issued Sep 2025</span>
+                            <p>Demonstrated technical aptitude in software engineering fundamentals.</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-card">
+                        <div class="cert-header">
+                            <i class="ri-code-box-line cert-icon"></i>
+                            <a href="Screenshot 2025-09-21 124846.png" download class="cert-download"
+                                title="Download Record"><i class="ri-download-2-line"></i> Download</a>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Specialization Module 2</h4>
+                            <span>Issued Sep 2025</span>
+                            <p>Demonstrated technical aptitude in software engineering application.</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-card">
+                        <div class="cert-header">
+                            <i class="ri-code-box-line cert-icon"></i>
+                            <a href="Screenshot 2025-09-21 124922.png" download class="cert-download"
+                                title="Download Record"><i class="ri-download-2-line"></i> Download</a>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Specialization Module 3</h4>
+                            <span>Issued Sep 2025</span>
+                            <p>Verified proficiency in advanced developmental architecture paradigms.</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-card">
+                        <div class="cert-header">
+                            <i class="ri-code-box-line cert-icon"></i>
+                            <a href="Screenshot 2025-09-21 124950.png" download class="cert-download"
+                                title="Download Record"><i class="ri-download-2-line"></i> Download</a>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Specialization Module 4</h4>
+                            <span>Issued Sep 2025</span>
+                            <p>Verified proficiency in algorithm optimization and integration testing.</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-card">
+                        <div class="cert-header">
+                            <i class="ri-code-box-line cert-icon"></i>
+                            <a href="Screenshot 2025-09-21 125016.png" download class="cert-download"
+                                title="Download Record"><i class="ri-download-2-line"></i> Download</a>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Specialization Module 5</h4>
+                            <span>Issued Sep 2025</span>
+                            <p>Capstone completion of the specialized software development track.</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-card">
+                        <div class="cert-header">
+                            <i class="ri-code-box-line cert-icon"></i>
+                            <a href="Screenshot 2025-09-21 125037.png" download class="cert-download"
+                                title="Download Record"><i class="ri-download-2-line"></i> Download</a>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Continuous Integration Review</h4>
+                            <span>Issued Sep 2025</span>
+                            <p>Comprehensive technical review of development processes and CI/CD basics.</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-card">
+                        <div class="cert-header">
+                            <i class="ri-code-box-line cert-icon"></i>
+                            <a href="Screenshot 2025-09-21 125053.png" download class="cert-download"
+                                title="Download Record"><i class="ri-download-2-line"></i> Download</a>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Platform Final Assessment</h4>
+                            <span>Issued Sep 2025</span>
+                            <p>Final verified credential for platform mastery and technical excellence.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="logo">OM<span>.</span></div>
+            <p>Designed and built by Ojasvi Mishra.</p>
+            <div class="footer-social">
+                <a href="https://linkedin.com/in/ojasvi-mishra2004" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                <a href="https://github.com/Ojasvimishra" target="_blank"><i class="ri-github-line"></i></a>
+                <a href="mailto:ojasvimishra9792@gmail.com"><i class="ri-mail-line"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Ojasvi Mishra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
