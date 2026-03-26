@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
             html_url: 'https://github.com/Ojasvimishra/Hospital-Online-Patient-Data-Organizer-System-',
             homepage: 'https://hospital-online-patient-data-organi.vercel.app',
             icon: 'ri-javascript-line',
-            imgUrl: 'assets/hopds.png',
+            imgUrl: 'assets/Screenshot 2026-03-23 195504.png',
             techTags: ['MongoDB', 'Express.js', 'React', 'Node.js'],
             features: [
                 'Multi-role authentication (Admin, Doctor, Patient)',
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
             html_url: 'https://github.com/Ojasvimishra/DEKHO-BHARAT',
             homepage: 'http://localhost:5173',
             icon: 'ri-javascript-line',
-            imgUrl: 'assets/dekho-bharat.png',
+            imgUrl: 'assets/Screenshot 2026-03-23 201404.png',
             techTags: ['React', 'Node.js', 'MongoDB', 'Vite'],
             features: [
                 'Smart hierarchical destination discovery',
@@ -204,6 +204,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (repo.language === 'JavaScript' || repo.language === 'TypeScript') icon = 'ri-javascript-line';
                     else if (repo.language === 'C++') icon = 'ri-code-s-slash-line';
                     
+                    let bgImage = 'assets/img2.png';
+                    
+                    if (repo.name.toLowerCase().includes('counterfeit')) {
+                        bgImage = 'assets/How-Can-Analytics-Detect-Counterfeits-on-E-Commerce-Platforms-1024x576.png';
+                    }
+
                     renderProjectCard({
                         name: repo.name,
                         date: date,
@@ -211,7 +217,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         html_url: repo.html_url,
                         homepage: repo.homepage,
                         icon: icon,
-                        imgUrl: 'assets/img2.png', // Default image for fetched projects
+                        imgUrl: bgImage, // Default image for fetched projects
                         techTags: repo.language ? [repo.language] : ['Software'],
                         features: ['Maintained on GitHub', 'Source code available']
                     });
